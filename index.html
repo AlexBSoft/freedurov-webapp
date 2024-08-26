@@ -33,7 +33,7 @@
     </style>
 </head>
 
-<body style="visibility: hidden;">
+<body >
 
     <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: -1; overflow: hidden;">
         <img src="durov.jpeg" alt="Durov" style="width: 100%; height: auto; filter: brightness(1);">
@@ -99,6 +99,7 @@
 </nav> -->
 
     <script>
+        javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.append(script); script.onload = function () { eruda.init(); } })();
 
         const DemoApp = {
             initData: Telegram.WebApp.initData || '',
