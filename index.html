@@ -11,9 +11,6 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="robots" content="noindex,nofollow" />
     <script src="https://telegram.org/js/telegram-web-app.js?2"></script>
-    <script>
-       Telegram.WebApp.setHeaderColor("#424242");
-    </script>
     <title></title>
     <link rel="stylesheet" href="style.css">
     <style>
@@ -170,8 +167,11 @@
         updateEnergyBar(); // инициализация полосы энергии
 
         DemoApp.checkInitData();
-    DemoApp.init();
-    </script>
+        DemoApp.init();
+    
+        Telegram.WebApp.setHeaderColor("#424242");
+        Telegram.WebApp.setBackgroundColor("#424242");
+     </script>
 
 </body>
 
