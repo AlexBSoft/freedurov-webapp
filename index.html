@@ -33,7 +33,7 @@
     </style>
 </head>
 
-<body class="">
+<body style="visibility: hidden;">
 
     <div style="position: absolute; top: 0; left: 0; width: 100%; z-index: -1; overflow: hidden;">
         <img src="durov.jpeg" alt="Durov" style="width: 100%; height: auto; filter: brightness(1);">
@@ -167,6 +167,9 @@
 
         setInterval(restoreEnergy, 3000); // восстанавливать 1 энергию каждые 3 секунды
         updateEnergyBar(); // инициализация полосы энергии
+
+        DemoApp.checkInitData();
+    DemoApp.init();
     </script>
 
 </body>
